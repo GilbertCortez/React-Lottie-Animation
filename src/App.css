@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.container {
+  width: 500px;
+}
+
+.scrollArea{
+  min-height: 500px;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.venueCard{
+  min-height: 200px;
+  min-width: 300px;
+  border: 1px solid black;
+}
